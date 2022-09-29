@@ -3,7 +3,7 @@
     padding: 0;
 }
 .nav{
-    background-color:#543a2d;
+    background-color:#aac3bd;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -105,63 +105,90 @@
 
 /* -------------------------------------------------------------------inicio--------------------------------------- */
 
-.fondo_principal{
-background-color: #705b49;
-height: 660px;
-
+.fondo__principal{
+background-color: #394458;
+height: 545px;
+display: flex;
+justify-content: space-between;
 }
 
-.imagen_principal{
-position: absolute;
-height: 85%;
-width: 66%;
-background-image: url(../img/pan.jpg);
+.imagen__principal{
+height: 523px;
+width: 800px;
+background-image: url(../img/imagen2.png);
 background-repeat: no-repeat;
-margin-left: 16%;
 margin-top: 2%;
-border-radius: 40%;
+margin-right: 120px;
 }
 
-.titulo_principal{
+.titulo__principal{
 height: 230px;
-width: 1025px;
+width: 100px;
 margin-top: 200px;
+margin-left: 100px;
 text-align: center;
 font-size: 21px;
-color: #ECDDB6;
+color: #ffa510;
 }
 
 /* ------------------------------------------------------------productos ------------------ */
 
-.contenedor_Productos{
+.contenedor__particular{
 height: 235px;
 width: 100%;
-background-color: #562334e6;
+background-color: #a8a5ae;
 }
 
-.boton_productos{
+.boton__particulares{
 text-align: center;
 font-size: 20px;
 width: 260px;
 height: 140px;
-background-color: #ECDDB6;
+background-color: #3e5466;
+color: #ffa510;
 border-radius: 0px 0px 150px 150px;
 padding-top: 87px;
 margin-left: 42%;
 }
-
-.h1_productos{
-padding-top: 15px;
- color: #614e3e;
+.fondo__imagen{
+    width: 100%;
+    height: 482;
+    background-color: #a8a5ae;
+}
+.imagen__particulares{
+    width: 1200px;
+    height: 480px;
+    background-image: url(../img/partiuclares.png);
+    margin-left: 80px;
+}
+.contenedor__empresas{
+height: 235px;
+width: 100%;
+background-color: #a8a5ae;
 }
 
-
-.caja_compartida{
-width: 300px;
-height: 300px;
-background-color: pink;
-background-repeat: no-repeat;
-border: 2px solid darkblue;
+.boton__empresas{
+text-align: center;
+font-size: 20px;
+width: 260px;
+height: 140px;
+background-color: #3e5466;
+color: #ffa510;
+border-radius: 0px 0px 150px 150px;
+padding-top: 87px;
+margin-left: 42%;
+}
+.fondo__imagen__empresa{
+    width: 100%;
+    height: 482;
+    background-color: #a8a5ae;
+}
+.div__empresas{
+    width: 1200px;
+    height: 480px;
+    margin-left: 80px;
+    display: flex;
+    
 }
 
 .caja1{
